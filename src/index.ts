@@ -5,7 +5,7 @@ import { HardhatConfig, HardhatUserConfig } from "hardhat/types";
 extendConfig(
   (config: HardhatConfig, userConfig: Readonly<HardhatUserConfig>) => {
     config.etherscan.customChains.push({
-      network: "optimisiticGoerli",
+      network: "optimisticGoerli",
       chainId: 420,
       urls: {
         apiURL: "https://api-goerli-optimistic.etherscan.io/api",
